@@ -223,7 +223,7 @@ class pascal_voc(imdb):
       self._devkit_path,
       'VOC' + self._year,
       'Annotations',
-      '{:s}.xml')
+      '{0:s}.xml')
     imagesetfile = os.path.join(
       self._devkit_path,
       'VOC' + self._year,
